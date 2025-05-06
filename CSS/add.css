@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.things{
+    margin-top: 100px;
+    border: none;
+    padding: 200px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.test{
+    align-items: center;
+    text-align: center;
+    border: #fff solid 2px;
+    border-radius: 6px;
+    background-color: rgba(65, 64, 64, 0.552);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    min-width: 140px;
+}
+.test button{
+    all: unset;
+}
+.test i, .test1 i{
+    color: #fff;
+    font-size: 30px;
+    cursor:pointer;
+}
+.test h3, .test1 h3{
+    font-size: 18px;
+    color: #fff;
+    padding-left: 10px;
+}
+.test1{
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    border: #fff solid 2px;
+    border-radius: 6px;
+    background-color: rgba(65, 64, 64, 0.552);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    min-width: 140px;
+}
+.test1 button{
+    display: flex;
+}
+.test1 button h3{
+    margin-top: 6px;
+}
+.things a{
+    height: 100%;
+    width: 20%;
+}
+.tfli{
+    width: 100%;
+    display: flex;
+    padding: 40px 25px 25px 25px;
+    color: #fff;
+}
+.tfli h1{
+    margin-left: auto;
+}
+.tfli a{
+    display: inline-block;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: 30px;
+
+}
+.tfli a i{
+    cursor: pointer;
+    font-size: 50px;
+}
+.tfli{
+    position: relative;
+}
+.menu-drop{
+    display: none;
+    position: absolute;
+    top: 75%;
+    right: 45px;
+    background-color: #0c0c0c;
+    list-style: none;
+    z-index: 1000;
+    border-radius: 5px;
+}
+.menu-drop li{
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.menu-drop input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background-color: #5c4b4b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    all: unset;
+    font-size: 20px;
+}
+.menu-toggle:hover + .menu-drop,
+.menu-drop:hover {
+    display: block;
+}
+.agregar_p{
+    text-align: left;
+    position: relative;
+    background-color:#0c0c0c;
+    border: 8px solid #dddddd;
+    padding: 20px;
+    top: -450px;
+    width: 25%;
+    height: 93%;
+    border-radius: 10px;
+    margin-left: -10000px;
+}
+.agregar_p h2{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: #e2e2e2;
+    font-weight: 1000;
+}
+.agregar_p label{
+    font-size: 20px;
+    color: #fff;
+}
+.agregar_p input[type="text"],.agregar_p input[type="number"]{
+    margin: 5px;
+    border-radius: 2px;
+    outline: none;
+    width: 80%;
+    height: 20px;
+    background-color: #fcfcfc;
+}
+.agregar_p input[type="file"]{
+    margin: 5px;
+    border-radius: 2px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    height: auto;
+    background-color: #333;
+    align-items: center;
+    text-align: center;
+    border: #000 solid 2px;
+    padding: 20px 50px;
+    color: #dddddd;
+}
+.agregar_p .gd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.agregar_p .gd button{
+    background-color: #ae8957;
+    padding: 10px;
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 3px;
+    color: #e2e2e2;
+    align-items: center;
+    transition: 0.2s all ease-in;
+    font-size: 18px;
+}
+.agregar_p form button:hover{
+    color: #fff;
+    background-color: #0c0c0c;
+    border-color: #fff;
+    font-size: 19px;
+}
+.contenedor_centro{
+    position: fixed;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 70%;
+    width: auto;
+    transition: margin-left 1s ease;
+    z-index: 1200;
+    width: 100%;
+}
+button.cerrar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+button.cerrar i{
+    color: #fff;
+}
+.product-box .end{
+    display: flex;
+    padding: 15px;
+
+}
+.product-box .end .product-title{
+    max-width: 200px;
+}
+button{
+    all:unset;
+    cursor: pointer;
+}
+.product-box .end .price-and-cart{
+    border: 2px solid #fff;
+    cursor: pointer;
+    background-color: #a81a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 125px;
+    margin-left: auto;
+}
+.product-box .end .price-and-cart span{
+    color: #fff;
+    width: 70px;
+}
+.product-box .end .price-and-cart i{
+    color: #fff;
+    font-size: 25px;
+    margin: 0 0 0 0;
+}
